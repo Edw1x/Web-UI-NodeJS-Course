@@ -2,7 +2,7 @@
 function findMax(start, end) {
   let sum_start = 0;
   let index = 0;
-  for(let i = start; i < end; i++) {
+  for(let i = start; i <= end; i++) {
     let sum_inside = 0;
     for(let j = 1; j < i; j++){
       if(i%j===0){
